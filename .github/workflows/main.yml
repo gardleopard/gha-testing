@@ -9,6 +9,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Send to pipeline
+      - name: Show stuff
         run: |
           echo $GITHUB_EVENT_NAME
+          exit 1
