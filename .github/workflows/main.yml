@@ -12,4 +12,3 @@ jobs:
       - name: Show stuff
         run: |
           echo $GITHUB_EVENT_NAME
-          exit 1
